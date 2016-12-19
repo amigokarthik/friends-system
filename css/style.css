@@ -1,0 +1,330 @@
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+} 
+#ali p{
+	font-family:"Times New Roman", Times, serif;
+	font-size:22px ;
+	color:#606;
+} 
+.right {
+	position:absolute;
+	top:100px;
+	right:100px;
+}
+.right h2 {
+	position:absolute;
+	right:110px;
+}
+.newsFeed h2 {
+	width:70%;
+	margin-left:135px;
+	margin-right:270px;
+	margin-top:100px;				
+}
+.newsFeedPost {
+    background-color:#9F6;
+	border:1px solid #666;
+	width:70%;
+	margin-top:10px;
+	margin-left:15px;
+	padding:10px;
+    color:#306;
+}
+#boxes .window {
+ position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 15px;
+  text-align: center;
+  background-color:#9F6;
+}
+#boxes #dialog {
+  width:450px; 
+  height:440px;
+  padding:10px;
+  background-color:#0F6;
+  font-family: 'Segoe UI Light', sans-serif;
+  font-size: 25px;
+}
+.maintext{
+	text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  text-decoration: none;
+}
+body{
+  background: url('bg.jpg');
+}
+#lorem{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 12pt;
+  text-align: left;
+  color:#906;	
+}
+#lorem img{
+	alignment-adjust:central;
+	padding-left:75px;
+	}
+#popupfoot{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 36px;
+  padding: 10px 20px;
+}
+#popupfoot a{
+	text-decoration: none;
+}
+.agree:hover{
+  background-color:#CF9;
+}
+.popupoption:hover{
+	background-color:#D1D1D1;
+	color: green;
+}
+.popupoption2:hover{
+	
+	color: red;
+}
+#flor {
+	background-color:#eff5f9;
+}
+#flor p{
+	float:right;
+	color:#400000;
+	font-size:36px;
+	padding: 10px 10px 10px 10px;
+	}
+p {
+	padding-left:10px;
+}
+* {
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	background-color:#9F6;
+	-webkit-transition:all 0.7s ease 0s;
+	-moz-transition:all 0.7s ease 0s;
+	-o-transition:all 0.7s ease 0s;
+}
+.headerMenu {
+	background-image:url(img/menu_bg.png);
+	height: 56px;
+	border-bottom:0px;
+	padding-left: auto;
+	padding-right: auto;
+	width : 100%;
+}
+#wrapper {
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.dfgh {
+	font-family:"Times New Roman", Times, serif;
+	font-size:24px;
+	color:#306;
+
+}
+.logo {
+	width:125px;
+}
+.logo img {
+	width:150px;
+	height:38px;
+	padding-top:10px;
+	padding-left:350px;
+}
+.search_box {
+	background-image:url(../img/menu_bg.png);
+	position:absolute;
+	top:13px;
+	margin-left:135px;
+	}
+#search input[type="text"] {
+	background:url(../img/search-white.png) no-repeat 10px 6px #267bb6;
+	outline:none;
+	border: 0 none;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	width:350px;
+	padding: 9px 15px 9px 35px;
+	margin:0px;
+	text-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 1px 0 rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	-moz-box-shadow:0 1px 0 rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	box-shadow:0 1px 0 rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	-webkit-transition:all 0.7s ease 0s;
+	-moz-transition:all 0.7s ease 0s;
+	-o-transition:all 0.7s ease 0s;
+	transition:all 0.7s ease 0s;
+}
+#search input[type="text"]:focus {
+	background:url(../img/search-dark.png) no-repeat 10px 6px #fcfcfc;
+	color:#6a6f75;
+	width:350px;
+	-webkit-box-shadow:0 1px 0 rgba(255,255,255,0.1), 0 1px 0 rgba(0,0,0,0.9) inset;
+	-moz-box-shadow:0 1px 0 rgba(255,255,255,0.1), 0 1px 0 rgba(0,0,0,09) inset;
+	box-shadow:0 1px 0 rgba(255,255,255,0.1), 0 1px 0 rgba(0,0,0,0.9) inset;
+	text-shadow:0 2px 3px rgba(0,0,0,0.1);
+}
+@media screen and (max-width: 1280px) {
+#menu {
+	background-image:url(../img/menu_bg.png);
+	position:absolute;
+	top:0px;
+	right:0px;
+	height:37px;
+	padding-top:19px;
+	margin-right:4%;
+}
+}
+@media screen and (min-width: 1280px) {
+#menu {
+	background-image:url(../img/menu_bg.png);
+		position:absolute;
+	top:0px;
+	right:0px;
+	height:37px;
+	padding-top:19px;
+	margin-right:10%;
+}
+}
+@media screen and (min-width: 1920px) {
+#menu {
+	background-image:url(../img/menu_bg.png);
+		position:absolute;
+	top:0px;
+	right:0px;
+	height:37px;
+	padding-top:19px;
+	margin-right:25%;
+}
+}
+#menu a {
+	color:#333;
+	text-decoration:none;
+	font-size:14px;
+	background-image:url(../img/menu_bg.png);
+	background-repeat:no-repeat;
+	padding-top:19px;
+	padding-bottom:22px;
+	padding-left:10px;
+	padding-right:10px;
+}
+#menu a:hover {
+	background-image:url(../img/menu_bg_hover_mouse_over.png);
+}
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	padding:8px;
+	color:#0084c6;
+}
+input[type="text"] {
+	background-color:#FFFFFF;
+	border:1px solid #E2E2E2;
+	font-size:15px;
+	padding:5px;
+	width:300px;
+	margin-top:3px;
+	margin-bottom:3px;
+	outline:none;
+}
+input[type="text"]:hover {
+	border: 1px solid #006FC4;
+}
+input[type="password"] {
+	background-color:#FFFFFF;
+	border:1px solid #E2E2E2;
+	font-size:15px;
+	padding:5px;
+	width:300px;
+	margin-top:3px;
+	margin-bottom:3px;
+	outline:none;
+}
+input[type="password"]:hover {
+	border: 1px solid #006FC4;
+}
+input[type="submit"] {
+	background-color:#006FC4;
+	border: 1px solid #00508D;
+	font-size:15px;
+	color:#FFFFFF;
+	padding:5px;
+	margin-top:3px;
+	margin-bottom:3px;
+	border-radius:7px;
+}
+p {
+	padding-top:10px;
+}
+.textHeader {
+	background-color:#F3F6F9;;
+	width:190px;
+	height:15px;
+	padding:5px;
+	border-bottom:1px solid #DCE5EEE;
+	font-weight:600;
+}
+.profileLeftSideContent {
+	width:194px;
+	padding-right:0px;
+	padding-bottom:5px;
+	padding-top:5px;
+	padding-left:0px;
+	height:200px;
+}
+.postForm {
+	float:right;
+	width:560px;
+	height:120px;
+	background-color:#9f6;
+	padding:5px;
+	margin-right:350px;
+	margin-top:20px;	
+
+}
+.pro {
+	margin-left:100px;
+	margin-top:50px;
+}
+.pro1 {
+	margin-left:200px;
+	margin-top:20px;
+	width:200px;
+
+}
+.fro1 {
+	margin-left:50px;
+	margin-top:20px;
+	width:200px;
+
+}
+.profilePosts {
+	width:560px;
+	height:auto;
+	background:#9f6;
+	padding:5px;
+	float:right;
+	margin-right:350px;
+}
+.list {
+	width:100px;
+	height:300px;
+	border:thick;
+    float:right;
+	margin-right:435px;
+}
+
+
